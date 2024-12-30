@@ -171,7 +171,7 @@ a:hover{
     font-size: 4rem;
 }
 button{
-   width: 25%;
+   width: 150px;
     padding: 15px 20px;
     border-radius: 10px;
     color: var(--bg-color);
@@ -246,7 +246,7 @@ button{
     width: 60%;
     padding: 10px 20px;
     background-color: white;
-    transition: right 1s ease-in-out;
+    transition: all 1s linear;
   }
 
   .mobile-nav.show {
@@ -306,8 +306,9 @@ button{
    .hero-container{
     display: flex;
     flex-direction: column-reverse;
-    margin-top: 50px;
-    height: 80vh;
+    /* height: 80vh; */
+    margin-top: 100px;
+    gap: 100px;
     width: 100%;
    }
    #hero-image-desktop{
@@ -326,7 +327,6 @@ button{
 }
 .hero-image-cont{
     width: 100%;
-    height: 100%;
     justify-content: center;
     height: 50%;
 }
@@ -338,7 +338,7 @@ button{
     width: 100%;
     object-fit: contain;
     height: 100%;
-    margin-top: 40px;
+    margin-top: 60px;
    }
    button{
     font-size: 10px;
@@ -348,14 +348,7 @@ button{
     width: 80px;
 }
 }
-@media(max-width: 380px){
-    .hero-image-cont{
-     margin-top: 20px;
-    }
-    .hero-container{
-        margin-top: 100px;
-    }
-}
+
 @media(max-width:315px){
     .hero-container{
         margin-top: 130px;
